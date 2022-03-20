@@ -1,0 +1,27 @@
+h1{
+    color: rgb(0, 0, 0);
+    margin: 10px 300px;
+    width: 3000px;
+    font-size: 80px;
+}
+h3{
+
+    margin: 40px 500px;
+    background: rgb(201, 157, 106);
+    width: 400px;
+    font-size: 30px;
+    border: 8px solid #000;
+    
+}
+a{
+
+    font-size: 40px;
+    margin:40px 600px ;
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+
+
+   
