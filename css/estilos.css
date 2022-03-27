@@ -1,27 +1,38 @@
 h1{
-    color: rgb(0, 0, 0);
-    margin: 10px 300px;
-    width: 3000px;
-    font-size: 80px;
+    
+    font-size: 70px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #557B83;
+    color: aliceblue;
+    border: 4px solid #000;
 }
-h3{
-
-    margin: 40px 500px;
-    background: rgb(201, 157, 106);
-    width: 400px;
+.caja{
+    background: #39AEA9;
+    
     font-size: 30px;
-    border: 8px solid #000;
-    
+    border: 4px solid rgb(0, 0, 0);
+    width: 800px;
+    position: relative;
+    left: 300px;
+    padding: 10px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);   
 }
-a{
+.caja1{
+    text-align: center;
+    font-size: 40px; 
+}
 
+.caja2{
+    text-align: center;
     font-size: 40px;
-    margin:40px 600px ;
-    color: rgb(0, 0, 0);
-    
-    
+}
+body{
+    background-color: #A2D5AB;
 }
 
 
 
-   
+
