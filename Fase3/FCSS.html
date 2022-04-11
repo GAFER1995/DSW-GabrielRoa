@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hojas de estilo en cascada CSS</title>
+    <style>
+       
+        article {
+            background-color: #56BBF1;
+            grid-column: 1/4;
+            padding: 40px;
+            font-size: 20px;
+        
+        }
+        header{
+            background-color: #8FBDD3;
+            padding: 20px;
+            color: white;
+            font-size: 40px;
+            text-align: center;
+            display: flex;
+            flex-direction:row;
+            
+            
+        }
+        header img{
+            width:  400px;
+        }
+        aside{
+            background-color:#5EE6EB ;
+            grid-column: 4/5;
+        }
+        footer{
+            background-color:#F2FA5A ;
+        }
+        section{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+        .titulo{
+
+            color: black;
+            position: relative;
+            top: 40px;
+          left: 200px;
+        }
+        footer{
+            text-align: center;
+        }
+        aside img{
+            width: 500px;
+            position: relative;
+            top: 70px;
+        }
+        * {
+            margin:0px;
+            padding:0px;
+            
+        }
+        
+        #header {
+            margin:auto;
+            width:500px;
+            font-family:Arial, Helvetica, sans-serif;
+            
+        }
+        
+        ul, ol {
+            list-style:none;
+        }
+        
+        .nav > li {
+            float:left;
+            
+            
+        }
+        
+        .nav li a {
+            background-color:#000;
+            color:#fff;
+            text-decoration:none;
+            padding:10px 12px;
+            display:block;
+        }
+        
+        .nav li a:hover {
+            background-color:#434343;
+        }
+        
+        .nav li ul {
+            display:none;
+            position:absolute;
+            min-width:140px;
+        }
+        
+        .nav li:hover > ul {
+            display:block;
+        }
+        
+        .nav li ul li {
+            position:relative;
+        }
+        
+        .nav li ul li ul {
+            right:-140px;
+            top:0px;
+        }
+       
+        
+      
+       
+
+
+       
+        
+  
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Imagenes/logo.PNG">
+        <h1 class="titulo" >Frameworks CSS</h1>
+        
+    </header>
+    <div id="header">
+        <ul class="nav">
+            <li><a href="Index.html">Inicio</a></li>
+            <li><a href="">Temas</a>
+                <ul>
+                    <li><a href="CSS.html">Hojas de estilo en cascada CSS</a></li>
+                    <li><a href="FCSS.html">Frameworks CSS</a></li>
+                </ul>
+                <li><a href="">Recursos digitales</a>
+                <ul>
+                    <li><a href="Recurso1.html">Recurso1</a></li>
+                    <li><a href="Recurso2.html">Recurso2</a></li>
+                </ul>
+                <li><a href="">Aprendizaje</a>
+                <ul>
+                    <li><a href="">Actividad1</a></li>
+                    <li><a href="">Actividad2</a></li>
+                </ul>
+                <li><a href="">Acerca de</a>
+                    <ul>
+                        <li><a href="Autor.html">Autor</a></li>
+                    </ul>
+            </li>
+            
+        </ul>
+    </div>
+    <br>
+    <br>
+    <br>
+    
+    <section>
+        <article>
+            <p>
+                Los Frameworks son utilizados en el ámbito de la programación de aplicaciones desde hace mucho tiempo. Estos son un conjunto de herramientas, librerías, convenciones y buenas practicas las cuales pretenden el encapsular las tareas repetitivas en módulos genéricos fácilmente reutilizables. Este concepto para los framewoks CSS es similar y comprende un conjunto de herramientas, hojas de estilo y buenas practicas que permiten el diseño web, y de igual manera evitar conjuntos de tareas repetitivas y de esta da mas tiempo al diseñador a centrarse en los elementos únicos, que puedan aportar valor. Como el objetivo de los framewoks es tratar de evitar trabajar en aspectos genéricos del diseño web, por eso es habitual contar con frameworks los cuales incluyan herramientas mas avanzadas que puedan tener un impacto de profesionalismo en el diseño dentro de estos aspectos esta:<br><br>
+                <ul>
+                <li>La neutralización de los estilos que por defecto aplican los navegadores. </li>
+                <li>El manejar correctamente el texto de tal manera que todos los contenidos del diseño se vean igual en todos los navegadores y de esta forma sean adaptables para mejorar su accesibilidad</li>
+                <li>La creación de cualquier estructura compleja o layout de forma sencilla, con la seguridad sé que su funcionamiento es compatible en cualquier versión de cualquier navegador. </li>
+                </ul><br><br>
+                
+                <cite>
+
+                    Capítulo 5. Frameworks. (s/f). Uniwebsidad.com. Recuperado el 2 de abril de 2022, de https://uniwebsidad.com/libros/css-avanzado/capitulo-5
+
+                </cite>
+    
+            </p>
+        </article>
+    
+        <aside><img src="Imagenes/FCSS.png"></aside>
+    </section>
+    
+    <footer><p>gfroap@unadvirtual.edu.co - Skype:gabrifroa0107_1 - 01-04-2022</p></footer>
+    
+</body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hojas de estilo en cascada CSS</title>
+    <style>
+       
+        article {
+            background-color: #56BBF1;
+            grid-column: 1/4;
+            padding: 40px;
+            font-size: 20px;
+        
+        }
+        header{
+            background-color: #8FBDD3;
+            padding: 20px;
+            color: white;
+            font-size: 40px;
+            text-align: center;
+            display: flex;
+            flex-direction:row;
+            
+            
+        }
+        header img{
+            width:  400px;
+        }
+        aside{
+            background-color:#5EE6EB ;
+            grid-column: 4/5;
+        }
+        aside img{
+            width: 400px;
+            position: relative;
+            top: 80px;
+        }
+        footer{
+            background-color:#F2FA5A ;
+        }
+        section{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+        .titulo{
+
+            color: black;
+        }
+        footer{
+            text-align: center;
+        }
+        * {
+            margin:0px;
+            padding:0px;
+            
+        }
+        
+        #header {
+            margin:auto;
+            width:500px;
+            font-family:Arial, Helvetica, sans-serif;
+            
+        }
+        
+        ul, ol {
+            list-style:none;
+        }
+        
+        .nav > li {
+            float:left;
+            
+            
+        }
+        
+        .nav li a {
+            background-color:#000;
+            color:#fff;
+            text-decoration:none;
+            padding:10px 12px;
+            display:block;
+        }
+        
+        .nav li a:hover {
+            background-color:#434343;
+        }
+        
+        .nav li ul {
+            display:none;
+            position:absolute;
+            min-width:140px;
+        }
+        
+        .nav li:hover > ul {
+            display:block;
+        }
+        
+        .nav li ul li {
+            position:relative;
+        }
+        
+        .nav li ul li ul {
+            right:-140px;
+            top:0px;
+        }
+       
+        
+      
+       
+
+
+       
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Imagenes/logo.PNG">
+        <h1 class="titulo" >Hojas de estilo en cascada CSS</h1>
+       
+    </header>
+    <div id="header">
+        <ul class="nav">
+            <li><a href="Index.html">Inicio</a></li>
+            <li><a href="">Temas</a>
+                <ul>
+                    <li><a href="CSS.html">Hojas de estilo en cascada CSS</a></li>
+                    <li><a href="FCSS.html">Frameworks CSS</a></li>
+                </ul>
+                <li><a href="">Recursos digitales</a>
+                <ul>
+                    <li><a href="">Recurso1</a></li>
+                    <li><a href="">Recurso2</a></li>
+                </ul>
+                <li><a href="">Aprendizaje</a>
+                <ul>
+                    <li><a href="">Actividad1</a></li>
+                    <li><a href="">Actividad2</a></li>
+                </ul>
+                <li><a href="">Acerca de</a>
+                    <ul>
+                        <li><a href="Autor.html">Autor</a></li>
+                    </ul>
+            </li>
+            
+        </ul>
+    </div>
+    <br>
+    <br>
+    <br>
+   
+    <section>
+        <article>
+            <h2 > <i>¿Qué es CSS?</i></h2><br>
+
+            <p>
+                
+                    
+                Para desarrollar el concepto de CSS es importante tener en cuenta que una página web es un documento de texto, codificada con lenguaje HTML, con este lenguaje se pueden crear las estructuras de una página web y el contenido que se quiere dar a conocer. La combinación de CSS y HTML permite al diseñador diseñar visualmente una estructura web, no solo basándose en sus niveles jerárquicos sino en su estilo estético, esto permite modificar la estructura web en cuanto a la forma, color, posición y entre otras características visuales a las que se le puede aplicar una página. Las siglas CSS (Cascading Style Sheets) significan "hojas de estilo en cascada", su denominación en cascada hace referencia ya que este concepto se aplica de arriba abajo, el cual sigue un patrón denominado herencia.
+                Para la estructuración de código CSS se utiliza el concepto de separación de presentación y contenido, es decir, se pretende que la estructura codificada con HTML tenga contenida sola información y datos, relativos a la información a transmitir, ya en otro documento CSS se alojan todos los aspectos relacionados con los estilos (diseño, colores,formas,etc…). 
+    
+    
+            </p><br>
+            <cite>CSS. (s/f). Mozilla.org. Recuperado el 2 de abril de 2022, de https://developer.mozilla.org/es/docs/Web/CSS</cite>
+        </article>
+        
+    
+        <aside><img src="Imagenes/css.png"></aside>
+    </section>
+    
+    <footer><p>gfroap@unadvirtual.edu.co - Skype:gabrifroa0107_1 - 01-04-2022</p></footer>
+    
+</body>
+</html>
