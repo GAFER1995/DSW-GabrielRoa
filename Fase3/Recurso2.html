@@ -6,7 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recurso 1</title>
     <style>
-         * {
+        header{
+    background-color: #8FBDD3;
+    padding: 20px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction:row;
+    
+}
+header img{
+    width: 400px;
+}
+img{
+    border: 4px solid #000;
+}
+p img{
+    width: 200px;
+    position: relative;
+    left: 40px;
+}
+#titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    position: relative;
+    top: 40px;
+    right: 40px;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+article{
+    background-color: #E4D1B9;
+    grid-column:1/4;
+    font-size: 20px;
+    text-align:left;
+    padding: 40px;
+    
+}
+
+aside{
+    background-color:#BE8C63;
+    padding: 20px;
+    grid-column:4/5;
+}
+
+footer{
+    background-color: #A97155;
+    padding: 20px;
+    text-align: center;
+}
+
+#titulo1{
+
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+
+			
+        * {
             margin:0px;
             padding:0px;
             
@@ -59,52 +121,77 @@
             right:-140px;
             top:0px;
         }
-        iframe{
-            position: relative;
-            left: 350px;
-            top: 80px;
-        }
-        footer{
-            text-align: center;
-        }
        
-        
+        section article iframe{
+            position: relative;
+            left: 250px;
+        }
+      
+       
+
+
+    
+    
+
+
     </style>
 </head>
-<body>
-    <div id="header">
-        <ul class="nav">
-            <li><a href="Index.html">Inicio</a></li>
-            <li><a href="">Temas</a>
-                <ul>
-                    <li><a href="CSS.html">Hojas de estilo en cascada CSS</a></li>
-                    <li><a href="FCSS.html">Frameworks CSS</a></li>
-                </ul>
-                <li><a href="">Recursos digitales</a>
-                <ul>
-                    <li><a href="Recurso1.html">Recurso1</a></li>
-                    <li><a href="Recurso2.html">Recurso2</a></li>
-                </ul>
-                <li><a href="">Aprendizaje</a>
-                <ul>
-                    <li><a href="">Actividad1</a></li>
-                    <li><a href="">Actividad2</a></li>
-                </ul>
-                <li><a href="">Acerca de</a>
-                    <ul>
-                        <li><a href="Autor.html">Autor</a></li>
-                    </ul>
-            </li>
-            
-        </ul>
-    </div>
-    <br>
-    <br>
-    <br>
-    <div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/FQ-jo08hrLE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-   
-    
-</body>
-</html>
+
+
+    <body>
+        <header>
+            <img src="Imagenes/logo.PNG" alt="Logo">
+            <h1 id="titulo">Escuela web de aprendizaje libre </h1>
+          </header>
+          <div id="header">
+              <ul class="nav">
+                  <li><a href="Index.html">Inicio</a></li>
+                  <li><a href="">Temas</a>
+                      <ul>
+                          <li><a href="CSS.html">Hojas de estilo en cascada CSS</a></li>
+                          <li><a href="FCSS.html">Frameworks CSS</a></li>
+                      </ul>
+                      <li><a href="">Recursos digitales</a>
+                      <ul>
+                          <li><a href="Recurso1.html">Recurso1</a></li>
+                          <li><a href="Recurso2.html">Recurso2</a></li>
+                      </ul>
+                      <li><a href="">Aprendizaje</a>
+                      <ul>
+                          <li><a href="">Actividad1</a></li>
+                          <li><a href="">Actividad2</a></li>
+                      </ul>
+                      <li><a href="">Acerca de</a>
+                          <ul>
+                              <li><a href="Autor.html">Autor</a></li>
+                          </ul>
+                  </li>
+                  
+              </ul>
+          </div>
+          <br>
+          <br>
+          <br>
+          
+         
+      
+                
+        <section>
+            <article>
+      
+              <h1 id="titulo1" >Recurso 2 </h1><br>
+              
+      
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/FQ-jo08hrLE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
+              
+      
+            </article>
+            <aside>
+              <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2F.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </aside>
+        </section>
+        <footer><p>gfroap@unadvirtual.edu.co - Skype:gabrifroa0107_1 - 01-04-2022</p></footer>
+          
+      </body>
+      </html>
